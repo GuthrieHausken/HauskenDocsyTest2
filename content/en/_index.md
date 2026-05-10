@@ -1,93 +1,41 @@
 ---
-title: Goldydocs
-description: Porridge temperature assessment &mdash; in the cloud!
+title: Guthrie Hausken
+description: Personal portfolio 
 params:
   body_class: td-navbar-links-all-active
 ---
 
 {{% blocks/cover
   title="Guthrie Hausken"
-  height="full td-below-navbar"
+  height="med td-below-navbar"
   image_anchor="top"
+  color="primary bg-gradient td-below-navbar"
 %}}
 
-<!--
-  Want a cover without an image?
-  Add the following argument to the blocks/cover shortcode:
-    color="primary bg-gradient td-below-navbar"
--->
+{{% param description %}}
+{.lead .mt-3}
 
-<!-- prettier-ignore -->
-{{% _param description %}}
-{.display-6}
+<p class="mt-2">Writer, Designer, Information Architect, Loser.</p>
 
-<!-- prettier-ignore -->
-<div class="td-cta-buttons my-5">
-  <a {{% _param btn-lg primary %}} href="docs/">
-    Learn more
+<div class="mx-auto mt-5">
+  <a class="btn btn-lg btn-primary me-3 mb-4" href="#about">
+    About me <i class="fas fa-arrow-down ms-2"></i>
   </a>
-  <a {{% _param btn-lg secondary %}}
-    href="{{% param github_repo %}}"
-    target="_blank" rel="noopener noreferrer">
-    Get the code
-    {{% _param FA brands github "" %}}
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="mailto:guthriehausken@gmail.com">
+    Get in touch <i class="fas fa-envelope ms-2"></i>
   </a>
 </div>
 
-{{% blocks/link-down color="info" %}}
-
 {{% /blocks/cover %}}
 
-{{% blocks/lead color="white" %}}
+{{% blocks/section id="about" color="white" type="row" %}}
 
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+<div class="col-12 col-lg-8 mx-auto">
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+## About
 
-{{% /blocks/lead %}}
+A product of the Pacific Northwest. Currently studying Technical Writing and English. Always looking for opportunities to work and grow as a writer.
 
-{{% blocks/section color="primary" type="row" %}}
-
-{{% blocks/feature title="New chair metrics!" icon="fa-lightbulb" %}}
-
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
-
-{{% /blocks/feature %}}
-
-{{% blocks/feature
-  title="Contributions welcome!" icon="fab fa-github"
-  url="https://github.com/google/docsy-example"
-%}}
-
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-
-{{% /blocks/feature %}}
-
-{{% blocks/feature
-  title="Follow us on X!" icon="fab fa-x-twitter"
-  url="https://x.com/docsydocs"
-%}}
-
-For announcement of latest features etc.
-
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="white" type="row text-center h1" %}}
-
-This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="secondary" type="row text-center h1" %}}
-
-This is the another section with center alignment
+</div>
 
 {{% /blocks/section %}}
