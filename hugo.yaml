@@ -1,5 +1,6 @@
-baseURL: https://example.docsy.dev
-title: Goldydocs
+baseURL: https://GuthrieHausken.github.io/HauskenDocsyTest2/
+
+title: Hausken Test Docsy Site
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu slugorcontentbasename
 
@@ -132,7 +133,7 @@ params:
   version: 0.15.0
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/google/docsy-example
+  github_repo: https://github.com/GuthrieHausken/HauskenDocsyTest2
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
   github_project_repo: https://github.com/google/docsy
